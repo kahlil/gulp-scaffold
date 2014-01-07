@@ -18,7 +18,7 @@ npm install
 
 Now you can go ahead and scaffold READMEs:
 
-```sh
+```js
 // Scaffold a README.md.
 // `gulp readme --headline="My Headline" --description="Some description."`
 gulp.task('readme', function () {
@@ -30,7 +30,7 @@ gulp.task('readme', function () {
 
 Or JavaScript modules:
 
-```sh
+```js
 // Scaffold a JavaScript module.
 // `gulp module --name="moduleName"`
 gulp.task('plugin', function() {
