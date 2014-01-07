@@ -50,7 +50,7 @@ JavaScript modules:
 gulp.task('module', function() {
 	gulp.src('templates/module.js')
 		.pipe(template(argv))
-		.pipe(gulp.dest('results/module/' + argv.name.toLowerCase() + '.js'));
+		.pipe(gulp.dest('results/modules/' + argv.name.toLowerCase() + '.js'));
 });
 ```
 
