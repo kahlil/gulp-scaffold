@@ -54,7 +54,8 @@ gulp.task('plugin', function() {
 });
 ```
 
-Or anything you want, really.
+or anything you want, really. Roll your own and send a PR.  
+Would be cool to collect the templates and Gulpfile patterns here.
 
 ## License
 
