@@ -4,9 +4,9 @@
 
 This is not a Gulp plugin, just an instruction and some examples on how to scaffold all the things with Gulp.
 
-## How To Scaffold Things
+## How To Scaffold All The Things
 
-This very simple pattern parses cli options with @substack's optimist module and hands them right over to gulp-template as an object.
+This very simple pattern parses cli options with [@substack's optimist module](https://github.com/substack/node-optimist) and hands them right over to [gulp-template](https://github.com/sindresorhus/gulp-template) as an object.
 
 ```js
 gulp.task('default', function () {
@@ -24,7 +24,7 @@ Clone this repo:
 git clone http://github.com/distilledhype/gulp-scaffold
 ```
 
-Then install all the dendencies with 
+Then install all the dependencies with 
 
 ```js
 npm install 
@@ -42,7 +42,7 @@ gulp.task('readme', function () {
 });
 ```
 
-Or JavaScript modules:
+JavaScript modules:
 
 ```js
 // Scaffold a JavaScript module.
@@ -54,4 +54,4 @@ gulp.task('plugin', function() {
 });
 ```
 
-Or anything you want, really.
+or anything you want, really.
