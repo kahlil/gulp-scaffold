@@ -54,4 +54,8 @@ gulp.task('plugin', function() {
 });
 ```
 
-or anything you want, really.
+Or anything you want, really.
+
+## License
+
+MIT © [Kahlil Lechelt](http://distilledhype.com)
