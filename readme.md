@@ -4,7 +4,19 @@
 
 This is not a Gulp plugin, just an instruction and some examples on how to scaffold all the things with Gulp.
 
-## How To
+## How To Scaffold Things
+
+This very simple pattern parses cli options with @substack's optimist module and hands them right over to gulp-template as an object.
+
+```js
+gulp.task('default', function () {
+  gulp.src('some/template-file.xx')
+    .pipe(template(require('optimist').argv))
+    .pipe(gulp.dest('some/destination'));
+});
+```
+
+## Get started
 
 Clone this repo:
 
