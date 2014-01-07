@@ -1,6 +1,8 @@
 # gulp-scaffold
 
-Use Gulp to scaffold things.
+> Use Gulp to scaffold things.
+
+This is not a Gulp plugin, just an instruction and some examples on how to scaffold all the things with Gulp.
 
 ## How To
 
