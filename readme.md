@@ -16,8 +16,28 @@ Then install all the dendencies with
 npm install 
 ```
 
-Now you can go ahead and scaffold a test file with
+Now you can go ahead and scaffold READMEs:
 
 ```sh
-gulp --headline="My Headline" --text="My text" 
+// Scaffold a README.md.
+// `gulp readme --headline="My Headline" --description="Some description."`
+gulp.task('readme', function () {
+  gulp.src('templates/README.md')
+    .pipe(template(argv))
+    .pipe(gulp.dest('results/readme'));
+});
 ```
+
+Or JavaScript modules:
+
+```sh
+// Scaffold a JavaScript module.
+// `gulp module --name="moduleName"`
+gulp.task('plugin', function() {
+	gulp.src('templates/module.js')
+		.pipe(template(argv))
+		.pipe(gulp.dest('results/module/' + argv.name.toLowerCase() + '.js'));
+});
+```
+
+Or anything you want, really.
