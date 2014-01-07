@@ -1,4 +1,4 @@
-# gulp-scaffolding
+# gulp-scaffold
 
 This is a Gulp setup that allows you to scaffold text files via the command line.
 
@@ -6,10 +6,10 @@ This is just the result of something I learned recently.
 
 ## How To Use
 
-Check out this repo. 
+Clone this repo:
 
 ```sh
-git clone http://github.com/distilledhype/gulp-scaffolding
+git clone http://github.com/distilledhype/gulp-scaffold
 ```
 
 Then install all the dendencies with 
@@ -18,10 +18,8 @@ Then install all the dendencies with
 npm install 
 ```
 
-Now you can go ahead and scaffold a test file by typing
+Now you can go ahead and scaffold a test file with
 
 ```sh
 gulp --headline="My Headline" --text="My text" 
 ```
-
-into the command line.
