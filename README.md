@@ -47,7 +47,7 @@ JavaScript modules:
 ```js
 // Scaffold a JavaScript module.
 // `gulp module --name="moduleName"`
-gulp.task('plugin', function() {
+gulp.task('module', function() {
 	gulp.src('templates/module.js')
 		.pipe(template(argv))
 		.pipe(gulp.dest('results/module/' + argv.name.toLowerCase() + '.js'));
