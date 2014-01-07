@@ -1,9 +1,9 @@
 {
-  "name": "gulp-scaffolding",
+  "name": "gulp-scaffold",
   "version": "0.1.0",
   "description": "Use command line options to scaffold all the things.",
   "license": "MIT",
-  "repository": "distilledhype/gulp-scaffolding",
+  "repository": "distilledhype/gulp-scaffold",
   "author": {
     "name": "Kahlil Lechelt",
     "email": "kahlil@distilledhype.net",

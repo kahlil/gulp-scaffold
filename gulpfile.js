@@ -1,8 +1,20 @@
+'use strict';
 var gulp = require('gulp');
 var template = require('gulp-template');
+var argv = require('optimist').argv;
 
-gulp.task('default', function () {
-    gulp.src('test/templates/template.md')
-        .pipe(template(require('optimist').argv))
-        .pipe(gulp.dest('test/result'));
+// Scaffold a README.md.
+// `gulp readme --headline="My Headline" --description="Some description."`
+gulp.task('readme', function () {
+  gulp.src('templates/README.md')
+    .pipe(template(argv))
+    .pipe(gulp.dest('results/readme'));
+});
+
+// Scaffold a JavaScript module.
+// `gulp module --name="moduleName"`
+gulp.task('plugin', function() {
+	gulp.src('templates/module.js')
+		.pipe(template(argv))
+		.pipe(gulp.dest('results/module/' + argv.name.toLowerCase() + '.js'));
 });

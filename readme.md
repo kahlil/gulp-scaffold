@@ -1,10 +1,8 @@
 # gulp-scaffold
 
-This is a Gulp setup that allows you to scaffold text files via the command line.
+Use Gulp to scaffold things.
 
-This is just the result of something I learned recently.
-
-## How To Use
+## How To
 
 Clone this repo:
 
