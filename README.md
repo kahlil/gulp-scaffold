@@ -16,7 +16,7 @@ gulp.task('default', function () {
 });
 ```
 
-## Get started
+## Get Started
 
 Clone this repo:
 
