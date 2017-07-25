@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "gulp": "~3.2.4",
-    "gulp-template": "~0.1.0",
+    "gulp": "~3.9.1",
+    "gulp-template": "~4.0.0",
     "optimist": "~0.6.0"
   }
 }
