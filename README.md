@@ -1,5 +1,7 @@
 # gulp-scaffold
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kahlil/gulp-scaffold.svg)](https://greenkeeper.io/)
+
 > Use Gulp to scaffold things.
 
 This is not a Gulp plugin, just an instruction and some examples on how to scaffold all the things with Gulp.
